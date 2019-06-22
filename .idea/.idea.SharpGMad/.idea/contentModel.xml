@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Rafael\.Rider2019.1\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Rafael\.Rider2019.1\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Rafael\.Rider2019.1\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Rafael\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Rafael\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_SharpGMad.1233359513.00" t="ExcludeRecursive" />
+    <e p="F:\Stuff1tb\GitHub\Csharp\SharpGMad" t="IncludeFlat">
+      <e p="HSNXT.Greed" t="IncludeRecursive">
+        <e p="Addon.cs" t="Include" />
+        <e p="Assembly.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CRC32.cs" t="Include" />
+        <e p="Extensions.cs" t="Include" />
+        <e p="HSNXT.Greed.csproj" t="IncludeRecursive" />
+        <e p="Json.cs" t="Include" />
+        <e p="Legacy.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="HSNXT.Greed.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Reader.cs" t="Include" />
+        <e p="RealtimeAddon.cs" t="Include" />
+        <e p="Shared.cs" t="Include" />
+        <e p="Tags.cs" t="Include" />
+        <e p="Whitelist.cs" t="Include" />
+        <e p="Writer.cs" t="Include" />
+      </e>
+      <e p="HSNXT.Greed.AddonGrep" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="HSNXT.Greed.AddonGrep.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="HSNXT.Greed.AddonGrep.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="HSNXT.Greed.ClientSideLuaSeeker" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="HSNXT.Greed.ClientSideLuaSeeker.csproj" t="IncludeRecursive" />
+        <e p="MathHelpers.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="HSNXT.Greed.ClientSideLuaSeeker.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="HSNXT.Greed.CommandLine" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="HSNXT.Greed.CommandLine.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="HSNXT.Greed.CommandLine.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="RealtimeCommandline.cs" t="Include" />
+      </e>
+      <e p="HSNXT.Greed.SwepMerger" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="HSNXT.Greed.SwepMerger.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="HSNXT.Greed.SwepMerger.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="HSNXT.Greed.Unswepper" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="HSNXT.Greed.Unswepper.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="HSNXT.Greed.Unswepper.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="UnswepperProgram.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SharpGMad.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

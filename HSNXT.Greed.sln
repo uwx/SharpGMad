@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSNXT.Greed", "HSNXT.Greed\HSNXT.Greed.csproj", "{52A99E39-3805-44FD-97FD-27BA638486D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSNXT.Greed.CommandLine", "HSNXT.Greed.CommandLine\HSNXT.Greed.CommandLine.csproj", "{E3F4A487-E8BB-4C47-BFD4-DA926717268B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSNXT.Greed.AddonGrep", "HSNXT.Greed.AddonGrep\HSNXT.Greed.AddonGrep.csproj", "{546A61AB-29BF-45CA-AA42-5D25F4CE1661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSNXT.Greed.ClientSideLuaSeeker", "HSNXT.Greed.ClientSideLuaSeeker\HSNXT.Greed.ClientSideLuaSeeker.csproj", "{1EE58CCD-4510-4D21-9B41-622D53038360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSNXT.Greed.Unswepper", "HSNXT.Greed.Unswepper\HSNXT.Greed.Unswepper.csproj", "{B092C6BC-F5F1-42B2-AA8A-2F534A4080B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSNXT.Greed.SwepMerger", "HSNXT.Greed.SwepMerger\HSNXT.Greed.SwepMerger.csproj", "{5DC75A31-C429-4D5F-B7F8-C7B8304FE823}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Mono|x86 = Debug Mono|x86
+		Release Mono|x86 = Release Mono|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52A99E39-3805-44FD-97FD-27BA638486D4}.Debug Mono|x86.ActiveCfg = Debug|Any CPU
+		{52A99E39-3805-44FD-97FD-27BA638486D4}.Debug Mono|x86.Build.0 = Debug|Any CPU
+		{52A99E39-3805-44FD-97FD-27BA638486D4}.Release Mono|x86.ActiveCfg = Debug|Any CPU
+		{52A99E39-3805-44FD-97FD-27BA638486D4}.Release Mono|x86.Build.0 = Debug|Any CPU
+		{E3F4A487-E8BB-4C47-BFD4-DA926717268B}.Debug Mono|x86.ActiveCfg = Debug|Any CPU
+		{E3F4A487-E8BB-4C47-BFD4-DA926717268B}.Debug Mono|x86.Build.0 = Debug|Any CPU
+		{E3F4A487-E8BB-4C47-BFD4-DA926717268B}.Release Mono|x86.ActiveCfg = Debug|Any CPU
+		{E3F4A487-E8BB-4C47-BFD4-DA926717268B}.Release Mono|x86.Build.0 = Debug|Any CPU
+		{546A61AB-29BF-45CA-AA42-5D25F4CE1661}.Debug Mono|x86.ActiveCfg = Debug|Any CPU
+		{546A61AB-29BF-45CA-AA42-5D25F4CE1661}.Debug Mono|x86.Build.0 = Debug|Any CPU
+		{546A61AB-29BF-45CA-AA42-5D25F4CE1661}.Release Mono|x86.ActiveCfg = Debug|Any CPU
+		{546A61AB-29BF-45CA-AA42-5D25F4CE1661}.Release Mono|x86.Build.0 = Debug|Any CPU
+		{1EE58CCD-4510-4D21-9B41-622D53038360}.Debug Mono|x86.ActiveCfg = Debug|Any CPU
+		{1EE58CCD-4510-4D21-9B41-622D53038360}.Debug Mono|x86.Build.0 = Debug|Any CPU
+		{1EE58CCD-4510-4D21-9B41-622D53038360}.Release Mono|x86.ActiveCfg = Debug|Any CPU
+		{1EE58CCD-4510-4D21-9B41-622D53038360}.Release Mono|x86.Build.0 = Debug|Any CPU
+		{B092C6BC-F5F1-42B2-AA8A-2F534A4080B8}.Debug Mono|x86.ActiveCfg = Debug|Any CPU
+		{B092C6BC-F5F1-42B2-AA8A-2F534A4080B8}.Debug Mono|x86.Build.0 = Debug|Any CPU
+		{B092C6BC-F5F1-42B2-AA8A-2F534A4080B8}.Release Mono|x86.ActiveCfg = Debug|Any CPU
+		{B092C6BC-F5F1-42B2-AA8A-2F534A4080B8}.Release Mono|x86.Build.0 = Debug|Any CPU
+		{5DC75A31-C429-4D5F-B7F8-C7B8304FE823}.Debug Mono|x86.ActiveCfg = Debug|Any CPU
+		{5DC75A31-C429-4D5F-B7F8-C7B8304FE823}.Debug Mono|x86.Build.0 = Debug|Any CPU
+		{5DC75A31-C429-4D5F-B7F8-C7B8304FE823}.Release Mono|x86.ActiveCfg = Debug|Any CPU
+		{5DC75A31-C429-4D5F-B7F8-C7B8304FE823}.Release Mono|x86.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

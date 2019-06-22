@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f946bc7f-7bc1-45bc-975f-86e4293b9826" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HSNXT.Greed/RealtimeAddon.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+              <folding>
+                <marker date="1560056456109" expanded="false" signature="6:83" ph="..." />
+                <marker date="1560056456109" expanded="true" signature="106:22743" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="113:208" ph="/// Represents a watcher declaration for an exported file. ... " />
+                <marker date="1560056456109" expanded="true" signature="235:1382" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="250:351" ph="/// Gets or sets the path of the file on the filesystem. ... " />
+                <marker date="1560056456109" expanded="true" signature="392:495" ph="/// Gets or sets the path of the file in the loaded addon. ... " />
+                <marker date="1560056456109" expanded="true" signature="539:641" ph="/// Gets or sets whether the file is modified externally. ... " />
+                <marker date="1560056456109" expanded="true" signature="680:779" ph="/// The integrated System.IO.FileSystemWatcher object. ... " />
+                <marker date="1560056456109" expanded="true" signature="831:946" ph="/// The event to fire when the assigned Watcher reports a file change. ... " />
+                <marker date="1560056456109" expanded="true" signature="1013:1105" ph="/// Fires all associated FileChanged delegates. ... " />
+                <marker date="1560056456109" expanded="true" signature="1173:1376" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="1388:1510" ph="/// Encapsulates an Addon and provides the extended &quot;realtime&quot; functionality over it. ... " />
+                <marker date="1560056456109" expanded="true" signature="1555:22741" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="1570:1675" ph="/// The addon handled by the current RealtimeAddon instance. ... " />
+                <marker date="1560056456109" expanded="true" signature="1737:1828" ph="/// The file handle of the current open addon. ... " />
+                <marker date="1560056456109" expanded="true" signature="1878:1989" ph="/// Gets whether the Stream of the encapsulated Addon is writable. ... " />
+                <marker date="1560056456109" expanded="true" signature="2054:2170" ph="/// The reader corresponding to the handling of this addon on the disk. ... " />
+                <marker date="1560056456109" expanded="true" signature="2216:2321" ph="/// Gets the file path of the addon on the local filesystem. ... " />
+                <marker date="1560056456109" expanded="true" signature="2384:2544" ph="/// Indicates whether the current addon is modified (the state in memory differs from the state of the filestream ... " />
+                <marker date="1560056456109" expanded="true" signature="2585:2976" ph="/// Gets whether the current addon is modified (the state in memory differs from the state of the filestream). ... " />
+                <marker date="1560056456109" expanded="true" signature="3005:3507" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="3061:3497" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="3102:3312" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="3333:3483" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="3516:3611" ph="/// Gets whether there are changed exported files. ... " />
+                <marker date="1560056456109" expanded="true" signature="3705:3782" ph="/// Contains the exported files. ... " />
+                <marker date="1560056456109" expanded="true" signature="3858:5068" ph="/// Loads the specified addon from the local filesystem and encapsulates it within a realtime instance. ... " />
+                <marker date="1560056456109" expanded="true" signature="5178:6658" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="5228:5360" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="5411:5650" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="5682:5765" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="5804:5868" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="5900:5981" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="6017:6098" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="6140:6222" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="6260:6341" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="6380:6461" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="6498:6579" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="6668:7158" ph="/// Creates a new, empty addon and encapsulates it within a realtime instance. ... " />
+                <marker date="1560056456109" expanded="true" signature="7215:7803" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="7264:7375" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="7430:7565" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="7813:7923" ph="/// Private constructor setting up references and default values. ... " />
+                <marker date="1560056456109" expanded="true" signature="7955:8056" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="8066:8467" ph="/// Creates the RealtimeAddon instance with the specified Addon to encapsulate and the FileStream pointing to the ... " />
+                <marker date="1560056456109" expanded="true" signature="8552:8638" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="8648:9419" ph="/// Adds the specified file from the local filesystem to the encapsulated addon. ... " />
+                <marker date="1560056456109" expanded="true" signature="9464:9975" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="9514:9646" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="9985:10652" ph="/// Adds an array of bytes to the encapsulated addon using the specified internal path. ... " />
+                <marker date="1560056456109" expanded="true" signature="10709:10806" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="10816:11090" ph="/// Removes the specified file from the encapsulated addon. ... " />
+                <marker date="1560056456109" expanded="true" signature="11134:11225" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="11235:12031" ph="/// Extracts a file from the encapsulated addon and saves it on the local filesystem. ... " />
+                <marker date="1560056456109" expanded="true" signature="12094:13289" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="12146:12283" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="12300:12570" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="12409:12556" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="12617:12712" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="12758:12899" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="12933:13056" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="13299:14299" ph="/// Saves the specified file on the local filesystem and sets up a notifier FileWatch object ... " />
+                <marker date="1560056456109" expanded="true" signature="14354:15571" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="14406:14546" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="14563:14836" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="14672:14822" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="14906:15035" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="15225:15295" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="15581:15691" ph="/// Fires if an exported file is changed on the local filesystem. ... " />
+                <marker date="1560056456109" expanded="true" signature="15762:16604" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="15824:15927" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="15973:16221" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="16004:16152" ph="/* The watch for the file was removed earlier but the Watcher remained there. ... */" />
+                <marker date="1560056456109" expanded="true" signature="16300:16367" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="16384:16594" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="16614:17089" ph="/// Deletes the export of the specified file from the local filesystem and stops watching the changes. ... " />
+                <marker date="1560056456109" expanded="true" signature="17133:17575" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="17188:17288" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="17334:17445" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="17585:18072" ph="/// Updates the encapsulated addon object's file entry with the changes of a previously exported file. ... " />
+                <marker date="1560056456109" expanded="true" signature="18110:19378" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="18166:18267" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="18313:18424" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="18468:18520" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="18577:18689" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="18735:18933" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="19388:19731" ph="/// Gets the ContentFile entry for the specified path. ... " />
+                <marker date="1560056456109" expanded="true" signature="19779:19843" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="19853:20090" ph="/// Saves the changes of the encapsulated addon to its file stream. ... " />
+                <marker date="1560056456109" expanded="true" signature="20117:21904" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="20170:20423" ph="/* It is needed to create a new, temporary file where we write the addon first ... */" />
+                <marker date="1560056456109" expanded="true" signature="20594:20952" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="20966:21079" ph="/* If there were no errors creating and copying the temporary file, ... */" />
+                <marker date="1560056456109" expanded="true" signature="21267:21352" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="21369:21437" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="21451:21703" ph="/* Convert all files in the open addon to addon-backed content storages ... */" />
+                <marker date="1560056456109" expanded="true" signature="21757:21894" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="21914:22094" ph="/// Closes all connections of the current RealtimeAddon instance. ... " />
+                <marker date="1560056456109" expanded="true" signature="22122:22663" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="22170:22407" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="22236:22317" ph="{...}" />
+                <marker date="1560056456109" expanded="true" signature="22694:22735" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HSNXT.Greed/Addon.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-104">
+              <caret line="322" column="13" selection-start-line="322" selection-start-column="13" selection-end-line="322" selection-end-column="13" />
+              <folding>
+                <marker date="1560056455803" expanded="false" signature="6:178" ph="..." />
+                <marker date="1560056455803" expanded="true" signature="201:21561" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="208:309" ph="/// Represents an error with files checking against ignore list. ... " />
+                <marker date="1560056455803" expanded="true" signature="376:697" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="703:837" ph="/// Represents an addon file in the program's memory and provides methods to manipulate an addon. ... " />
+                <marker date="1560056455803" expanded="true" signature="860:12968" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="875:975" ph="/// The identation (first few characters) of GMA files. ... " />
+                <marker date="1560056455803" expanded="true" signature="1028:1108" ph="/// The version byte for GMA files. ... " />
+                <marker date="1560056455803" expanded="true" signature="1162:1319" ph="/* The AppID of Garry's Mod on Steam. ... */" />
+                <marker date="1560056455803" expanded="true" signature="1328:1511" ph="/* Some sort of checksum/signature entry. ... */" />
+                <marker date="1560056455803" expanded="true" signature="1529:2399" ph="/* Represents the header of a GMA file. ... */" />
+                <marker date="1560056455803" expanded="true" signature="2409:2856" ph="/* This is the position in the file containing a 64 bit unsigned int that represents the file's age ... */" />
+                <marker date="1560056455803" expanded="true" signature="2874:2959" ph="/// Gets or sets the title of the addon. ... " />
+                <marker date="1560056455803" expanded="true" signature="3010:3115" ph="/// Gets the format version byte of the addon (from header). ... " />
+                <marker date="1560056455803" expanded="true" signature="3167:3428" ph="/* Gets or sets the author of the addon. ... */" />
+                <marker date="1560056455803" expanded="true" signature="3437:3528" ph="/// Gets or sets the description of the addon. ... " />
+                <marker date="1560056455803" expanded="true" signature="3585:3686" ph="/// Gets a compiled JSON string of the addon's metadata. ... " />
+                <marker date="1560056455803" expanded="true" signature="3766:3850" ph="/// Gets or sets the type of the addon. ... " />
+                <marker date="1560056455803" expanded="true" signature="3900:4043" ph="/* Gets or sets the Steam ID of the creator. ... */" />
+                <marker date="1560056455803" expanded="true" signature="4052:4137" ph="/// Gets the creation time of the addon. ... " />
+                <marker date="1560056455803" expanded="true" signature="4189:4332" ph="/* Gets or sets the version of the addon. ... */" />
+                <marker date="1560056455803" expanded="true" signature="4341:4436" ph="/// Contains a list of file contents of the addon. ... " />
+                <marker date="1560056455803" expanded="true" signature="4493:4576" ph="/// Gets or sets a list of addon tags. ... " />
+                <marker date="1560056455803" expanded="true" signature="4632:4726" ph="/// Gets or sets a list of addon ignore patterns. ... " />
+                <marker date="1560056455803" expanded="true" signature="4781:4871" ph="/// Initializes an new, empty Addon instance. ... " />
+                <marker date="1560056455803" expanded="true" signature="4894:5252" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="5262:5960" ph="/// Sets up a new instance of Addon using the data provided by the specified addon reader. ... " />
+                <marker date="1560056455803" expanded="true" signature="6046:6677" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="6466:6667" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="6687:6914" ph="/// Sets up a new instance of Addon using the metadata provided from the specified JSON. ... " />
+                <marker date="1560056455803" expanded="true" signature="6972:7375" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="7393:7645" ph="/// Gets whether the specified file is ignored by the addon's ignore list. ... " />
+                <marker date="1560056455803" expanded="true" signature="7689:7846" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="7856:8119" ph="/// Gets whether the specified file is allowed to be in GMAs by the global whitelist. ... " />
+                <marker date="1560056455803" expanded="true" signature="8174:8255" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="8265:8996" ph="/// Check against whitelist patterns to ensure that the file is allowed in the addon. ... " />
+                <marker date="1560056455803" expanded="true" signature="9047:10098" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="10108:10724" ph="/// Adds the specified file into the Addon's internal container. ... " />
+                <marker date="1560056455803" expanded="true" signature="10781:11290" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="10840:11092" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="11300:11390" ph="/// Sorts the internal file list by filename. ... " />
+                <marker date="1560056455803" expanded="true" signature="11417:11510" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="11520:11863" ph="/// Gets the ContentFile entry for the specified path. ... " />
+                <marker date="1560056455803" expanded="true" signature="11911:12247" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="11968:12053" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="12099:12211" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="12257:12546" ph="/// Removes the specified file and its contents from the internal storage. ... " />
+                <marker date="1560056455803" expanded="true" signature="12590:12962" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="12709:12952" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="12974:13060" ph="/// Represents a file entry to an Addon instance. ... " />
+                <marker date="1560056455803" expanded="true" signature="13089:21559" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="13104:13198" ph="/// Indicates the types how a file can be stored. ... " />
+                <marker date="1560056455803" expanded="true" signature="13238:13760" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="13261:13496" ph="/// Represents a storage in the addon itself. The contents will be read from the addon file. ... " />
+                <marker date="1560056455803" expanded="true" signature="13536:13727" ph="/// Represents a storage on the filesystem. The contents will be read from the disk. ... " />
+                <marker date="1560056455803" expanded="true" signature="13770:13853" ph="/// Gets or sets the path of the file. ... " />
+                <marker date="1560056455803" expanded="true" signature="13898:14004" ph="/// Gets or sets an array of bytes containg the file content. ... " />
+                <marker date="1560056455803" expanded="true" signature="14034:15984" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="14060:14913" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="14154:14860" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="14929:15974" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="14977:15960" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="15994:16068" ph="/// The storage of the addon. ... " />
+                <marker date="1560056455803" expanded="true" signature="16123:16242" ph="/// The reader where the contents can be read if Storage is AddonInstance. ... " />
+                <marker date="1560056455803" expanded="true" signature="16293:16415" ph="/// The index FileNumber in the AssociatedReader if Storage is AddonInstance. ... " />
+                <marker date="1560056455803" expanded="true" signature="16464:16559" ph="/// The file on the disk if Storage is Filesystem. ... " />
+                <marker date="1560056455803" expanded="true" signature="16611:16689" ph="/// Gets the size of the content. ... " />
+                <marker date="1560056455803" expanded="true" signature="16714:17001" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="16740:16991" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="17011:17099" ph="/// Gets the CRC32 checksum of the content. ... " />
+                <marker date="1560056455803" expanded="true" signature="17123:17420" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="17149:17410" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="17430:17702" ph="/// Initializes a new content file using an already existing file from an addon as storage. ... " />
+                <marker date="1560056455803" expanded="true" signature="17769:17967" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="17977:18262" ph="/// Initializes a new content file using pure content as storage. ... " />
+                <marker date="1560056455803" expanded="true" signature="18318:18580" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="18590:18828" ph="/// Generates a temporary path for the specified file. ... " />
+                <marker date="1560056455803" expanded="true" signature="18891:19175" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="19185:19543" ph="/// Switches the current ContentFile to represent a file saved into an addon. ... " />
+                <marker date="1560056455803" expanded="true" signature="19625:20268" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="19665:20258" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="20278:20393" ph="/// Disposes the externally saved content backer for the current file. ... " />
+                <marker date="1560056455803" expanded="true" signature="20431:20822" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="20525:20676" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="20706:20812" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="20832:20963" ph="/// Cleans up the temporary folder from possible stale externally saved content files. ... " />
+                <marker date="1560056455803" expanded="true" signature="21009:21478" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="21167:21468" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="21201:21276" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="21310:21454" ph="{...}" />
+                <marker date="1560056455803" expanded="true" signature="21502:21553" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HSNXT.Greed.Unswepper/UnswepperProgram.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+              <folding>
+                <marker date="1560144759459" expanded="false" signature="6:140" ph="..." />
+                <marker date="1560144759459" expanded="true" signature="173:5551" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="216:5549" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="498:561" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="611:1862" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="719:1146" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="1463:1743" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="1930:5395" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="2159:2462" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="2932:3368" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="3197:3354" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="3406:3788" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="3613:3774" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="3826:4204" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="4070:4190" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="4307:4615" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="4652:4950" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="4987:5301" ph="{...}" />
+                <marker date="1560144759459" expanded="true" signature="5457:5543" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HSNXT.Greed.SwepMerger/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1066">
+              <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
+              <folding>
+                <marker date="1560144468941" expanded="true" signature="6:169" ph="..." />
+                <marker date="1560144468941" expanded="true" signature="203:5622" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="239:5620" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="442:2682" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="550:1094" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="1599:1806" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="1870:2077" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="2135:2254" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="2312:2436" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="2806:3186" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="3397:5199" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="4110:4492" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="4308:4408" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="4545:4951" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="4736:4836" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="5288:5614" ph="{...}" />
+                <marker date="1560144468941" expanded="true" signature="5388:5446" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HSNXT.Greed.ClientSideLuaSeeker/MathHelpers.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+              <folding>
+                <marker date="1560119367067" expanded="true" signature="6:66" ph="..." />
+                <marker date="1560119367067" expanded="true" signature="109:4423" ph="{...}" />
+                <marker date="1560119367067" expanded="true" signature="147:4421" ph="{...}" />
+                <marker date="1560119367067" expanded="true" signature="219:738" ph="/// Partitions the given list around a pivot element such that all elements on left of pivot are &amp;lt;= pivot ... " />
+                <marker date="1560119367067" expanded="true" signature="874:1292" ph="{...}" />
+                <marker date="1560119367067" expanded="true" signature="1090:1214" ph="{...}" />
+                <marker date="1560119367067" expanded="true" signature="1302:1632" ph="/// Returns Nth smallest element from the list. Here n starts from 0 so that n=0 returns minimum, n=1 returns 2nd ... " />
+                <marker date="1560119367067" expanded="true" signature="1748:1839" ph="{...}" />
+                <marker date="1560119367067" expanded="true" signature="1982:2347" ph="{...}" />
+                <marker date="1560119367067" expanded="true" signature="2017:2337" ph="{...}" />
+                <marker date="1560119367067" expanded="true" signature="2417:2671" ph="{...}" />
+                <marker date="1560119367067" expanded="true" signature="2681:2783" ph="/// Note: specified list would be mutated in the process. ... " />
+                <marker date="1560119367067" expanded="true" signature="2857:2942" ph="{...}" />
+                <marker date="1560119367067" expanded="true" signature="3042:3425" ph="{...}" />
+                <marker date="1560119367067" expanded="true" signature="3235:3311" ph="{...}" />
+                <marker date="1560119367067" expanded="true" signature="3523:3675" ph="{...}" />
+                <marker date="1560119367067" expanded="true" signature="3830:4415" ph="{...}" />
+                <marker date="1560119367067" expanded="true" signature="4011:4087" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HSNXT.Greed.AddonGrep/HSNXT.Greed.AddonGrep.csproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gui</find>
+      <find>_addonHandle</find>
+      <find>WildcardFileTypes</find>
+      <find>FormatVersion</find>
+      <find>System.IO.Path</find>
+      <find>_addonHandle =</find>
+      <find>_addonStream</find>
+      <find>_addonReader</find>
+      <find>whitelistexc</find>
+      <find>CheckRestrictions</find>
+      <find>new Addon</find>
+      <find>i + 1</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>SysPath</replace>
+      <replace>++i</replace>
+    </replaceStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed.Unswepper/UnswepperProgram.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed/RealtimeAddon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed/Addon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed/Legacy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed.ClientSideLuaSeeker/MathHelpers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/680D0A75-2A4E-40EB-A596-BAD88FBFB729/65/eb978e8e/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed/Shared.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AB35B853-18B9-48DF-87CC-6695B81C8168/2a/10e230db/ConsolePal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed/Json.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed/Whitelist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed/Assembly.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed.AddonGrep/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AB35B853-18B9-48DF-87CC-6695B81C8168/8f/494e23fc/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed.CommandLine/RealtimeCommandline.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F291349F-2910-4EEA-B2C0-D2B7940766AE/23/bf628dd1/RegexOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/680D0A75-2A4E-40EB-A596-BAD88FBFB729/85/668faef9/StringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6DADD22E-0197-42CE-80AA-EFEF99855BE0/db/40fbb49a/MulticastDelegate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed.ClientSideLuaSeeker/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed.SwepMerger/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F291349F-2910-4EEA-B2C0-D2B7940766AE/a3/f0a48b96/MatchCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/680D0A75-2A4E-40EB-A596-BAD88FBFB729/80/143657c9/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F291349F-2910-4EEA-B2C0-D2B7940766AE/a0/16dca8bc/Regex.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed/Reader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HSNXT.Greed.CommandLine/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/HSNXT.XGMad/Class1.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.XGMad/Whitelist.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.XGMad/Json.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.XGMad/Reader.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.XGMad/Program.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.XGMad/Shared.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.XGMad/RealtimeCommandline.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.XGMad.CommandLine/RealtimeCommandline.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.XGMad.CommandLine/Program.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.XGMad/Legacy.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.XGMad/Assembly.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.XGMad/Addon.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.XGMad/RealtimeAddon.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.XGMad.AddonGrep/Program.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.Greed/Assembly.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.Greed.CommandLine/HSNXT.Greed.CommandLine.csproj" />
+        <option value="$PROJECT_DIR$/HSNXT.Greed.AddonGrep/Program.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.Greed.CommandLine/Program.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.Greed.ClientSideLuaSeeker/MathHelpers.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.Greed.ClientSideLuaSeeker/Program.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.Greed.Unswepper/Program.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.Greed.SwepMerger/Program.cs" />
+        <option value="$PROJECT_DIR$/HSNXT.Greed.Unswepper/UnswepperProgram.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1883" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SharpGMad" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SharpGMad" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="HSNXT.Greed" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SharpGMad" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="HSNXT.Greed.AddonGrep" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SharpGMad" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="HSNXT.Greed.ClientSideLuaSeeker" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SharpGMad" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="HSNXT.Greed.CommandLine" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SharpGMad" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="HSNXT.Greed.SwepMerger" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SharpGMad" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="HSNXT.Greed.Unswepper" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HSNXT.Greed.AddonGrep/HSNXT.Greed.AddonGrep.csproj" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Portable Programs/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Inspections-C#" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.SwepMerger">
+    <configuration name="ClientSideLuaSeeker" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/HSNXT.Greed.ClientSideLuaSeeker/bin/Debug/netcoreapp2.1/HSNXT.Greed.ClientSideLuaSeeker.dll" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;D:\SteamGames\steamapps\common\GarrysMod\garrysmod\addons&quot; &quot;C:\Users\Rafael\Downloads\New folder\dumps.txt&quot; &quot;C:\Users\Rafael\Downloads\New folder\nwstrigns.txt&quot;" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HSNXT.Greed.ClientSideLuaSeeker" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/HSNXT.Greed.ClientSideLuaSeeker/HSNXT.Greed.ClientSideLuaSeeker.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/HSNXT.Greed.CommandLine/bin/Debug/netcoreapp2.1/HSNXT.Greed.CommandLine.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HSNXT.Greed.CommandLine" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/HSNXT.Greed.CommandLine/HSNXT.Greed.CommandLine.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwepMerger" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/HSNXT.Greed.SwepMerger/bin/Debug/netcoreapp2.1/HSNXT.Greed.SwepMerger.dll" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;D:\SteamGames\steamapps\common\GarrysMod\garrysmod\addons\condensed_siminovs_dod_weapons&quot;" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HSNXT.Greed.SwepMerger" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/HSNXT.Greed.SwepMerger/HSNXT.Greed.SwepMerger.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unswepper" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/HSNXT.Greed.Unswepper/bin/Debug/netcoreapp2.1/HSNXT.Greed.Unswepper.dll" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Users\Rafael\Downloads\New folder\siminovs_dod_weapons_(fixed)_912766991&quot;" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HSNXT.Greed.Unswepper" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/HSNXT.Greed.Unswepper/HSNXT.Greed.Unswepper.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.ClientSideLuaSeeker" />
+      <item itemvalue=".NET Project.Unswepper" />
+      <item itemvalue=".NET Project.SwepMerger" />
+      <item itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f946bc7f-7bc1-45bc-975f-86e4293b9826" name="Default Changelist" comment="" />
+      <created>1559364799856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559364799856</updated>
+      <workItem from="1559364803803" duration="7346000" />
+      <workItem from="1559427998446" duration="1653000" />
+      <workItem from="1560049514013" duration="24396000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33395000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3326226" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Tail" order="8" />
+      <window_info anchor="bottom" id="Performance Profiler" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.32942432" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Designer Toolbox" order="3" sideWeight="0.5010661" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Errors In Solution" order="4" sideWeight="0.4989339" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.4989339" weight="0.32995737" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" sideWeight="0.4989339" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SharpGMad/Main.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/SharpGMad/Main.cs" />
+    <entry file="file://$PROJECT_DIR$/SharpGMad/Main.resx" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6DADD22E-0197-42CE-80AA-EFEF99855BE0/db/40fbb49a/MulticastDelegate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed/Json.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1184">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed/Reader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="272" column="31" selection-start-line="272" selection-start-column="31" selection-end-line="272" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed/Shared.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.XGMad/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed/Legacy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.XGMad.AddonGrep/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2656">
+          <caret line="166" column="39" selection-start-line="166" selection-start-column="39" selection-end-line="166" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed.CommandLine/RealtimeCommandline.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+          <folding>
+            <marker date="1560056591004" expanded="false" signature="6:137" ph="..." />
+            <marker date="1560056591004" expanded="true" signature="160:68380" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="167:287" ph="/// Provides an interface for handling realtime functionality from the commandline. ... " />
+            <marker date="1560056591004" expanded="true" signature="331:68378" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="346:420" ph="/// The currently open addon. ... " />
+            <marker date="1560056591004" expanded="true" signature="481:589" ph="/// The main method and entry point for command-line operation. ... " />
+            <marker date="1560056591004" expanded="true" signature="641:29483" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="748:1040" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="1070:1128" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="1297:29473" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="1353:1439" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="1486:1952" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="2105:29459" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="2183:2285" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="2342:2598" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="2691:2794" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="2851:3107" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="3232:3396" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="3453:3710" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="3847:3972" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="4029:4283" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="4479:4583" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="4640:4896" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="5048:5154" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="5211:5300" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="5329:5447" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="5504:5760" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="5892:5993" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="6050:6339" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="6395:6988" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="6453:6580" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="6628:6962" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="7037:7328" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="7426:7667" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="7521:7641" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="7724:8061" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="8115:8329" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="8448:8766" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="8850:8955" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="9012:9101" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="9130:9246" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="9303:10181" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="9399:9536" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="9569:10155" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="9839:10125" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="10298:10590" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="10619:10721" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="10778:11453" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="10874:11011" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="11044:11427" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="11264:11397" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="11546:11650" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="11707:11963" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="12097:12201" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="12258:12654" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="12698:14014" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="12753:12891" ph="/* case &quot;author&quot;: ... */" />
+            <marker date="1560056591004" expanded="true" signature="14130:14422" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="14494:14599" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="14656:15052" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="15119:15493" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="15286:15405" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="15550:15689" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="15734:16881" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="15789:15896" ph="/* case &quot;author&quot;: ... */" />
+            <marker date="1560056591004" expanded="true" signature="17255:17532" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="17561:17667" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="17724:17981" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="18095:18372" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="18670:19481" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="18769:19174" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="18948:19079" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="19235:19389" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="19538:19792" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="19838:20166" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="20288:21715" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="20555:20717" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="20845:21689" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="20981:21244" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="21306:21659" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="21759:22080" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="22488:22833" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="22884:25866" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="22988:23540" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="23725:23902" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="24218:24879" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="25075:25379" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="26530:26665" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="26716:28205" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="27209:27630" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="27686:28179" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="28254:28596" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="28711:29001" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="29166:29409" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="29493:29654" ph="/// Creates a new addon. ... " />
+            <marker date="1560056591004" expanded="true" signature="29708:31551" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="29754:30060" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="30099:30336" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="30353:30441" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="30489:30740" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="30774:31077" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="31561:31725" ph="/// Sets the title of the addon. ... " />
+            <marker date="1560056591004" expanded="true" signature="31783:32761" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="31829:32135" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="32176:32397" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="32443:32658" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="32771:32953" ph="/// Sets the description of the addon. ... " />
+            <marker date="1560056591004" expanded="true" signature="33023:34037" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="33069:33375" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="33416:33637" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="33689:33922" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="34047:35436" ph="/* Sets the author of the addon. ... */" />
+            <marker date="1560056591004" expanded="true" signature="35446:35607" ph="/// Sets the type of the addon. ... " />
+            <marker date="1560056591004" expanded="true" signature="35663:37504" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="35709:36015" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="36056:36277" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="36322:37069" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="36383:37055" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="36800:37037" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="37086:37403" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="37144:37389" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="37514:37680" ph="/// Sets the tags of the addon. ... " />
+            <marker date="1560056591004" expanded="true" signature="37743:42667" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="37789:38095" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="38136:38357" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="38494:40930" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="38588:40916" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="39117:40898" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="39273:39838" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="39362:39759" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="39970:40535" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="40059:40456" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="40586:40876" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="40947:42566" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="41011:42552" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="41155:41624" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="41236:41553" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="41748:42217" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="41829:42146" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="42264:42534" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="42677:42943" ph="/// Loads an addon from the filesystem. ... " />
+            <marker date="1560056591004" expanded="true" signature="43032:46951" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="43080:43317" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="43645:43770" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="43811:45958" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="43866:45944" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="44605:45926" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="44849:45904" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="45990:46292" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="46401:46496" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="46557:46684" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="46725:46941" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="46961:47335" ph="/// Adds a file to the open addon. ... " />
+            <marker date="1560056591004" expanded="true" signature="47434:51546" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="47480:47786" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="47825:48031" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="48072:48293" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="48307:48521" ph="/* Handle adding files without their full in-GMA path on the disk. ... */" />
+            <marker date="1560056591004" expanded="true" signature="48654:49807" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="48848:49793" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="49557:49775" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="49918:50051" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="50096:50300" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="50335:50620" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="50657:50861" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="50900:51121" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="51159:51399" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="51556:51879" ph="/// Adds all files from a specified folder to the addon. ... " />
+            <marker date="1560056591004" expanded="true" signature="51957:52965" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="52003:52309" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="52350:52571" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="52612:52698" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="52791:52955" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="52975:53069" ph="/// Lists the files currently added to the addon. ... " />
+            <marker date="1560056591004" expanded="true" signature="53109:53653" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="53157:53363" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="53517:53643" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="53663:53821" ph="/// Removes a file from the addon. ... " />
+            <marker date="1560056591004" expanded="true" signature="53877:55087" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="53923:54229" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="54268:54474" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="54515:54736" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="54753:54832" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="54874:55077" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="55097:55583" ph="/// Extract a file from the addon to a specified path on the local file system. ... " />
+            <marker date="1560056591004" expanded="true" signature="55667:57018" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="55715:55921" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="55938:56031" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="56075:56271" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="56321:56543" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="56577:56852" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="57028:57472" ph="/// Exports a file from the addon to a specified path on the local file system and sets up a watch. ... " />
+            <marker date="1560056591004" expanded="true" signature="57554:59978" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="57600:57906" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="57945:58151" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="58192:58413" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="58430:58521" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="58565:58761" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="58801:59019" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="59069:59287" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="59321:59595" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="60057:60483" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="60083:60279" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="60325:60473" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="60493:60787" ph="/// Removes a file export watcher and optionally deletes the exported file from the local file system. ... " />
+            <marker date="1560056591004" expanded="true" signature="60843:62152" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="60889:61195" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="61234:61440" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="61457:61536" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="61578:61804" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="61838:62091" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="62162:62435" ph="/// Pulls the changes of the specified file from its exported version. ... " />
+            <marker date="1560056591004" expanded="true" signature="62489:64103" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="62535:62841" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="62880:63086" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="63127:63348" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="63365:63438" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="63480:63706" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="63740:64012" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="64113:64205" ph="/// Saves the changes of the addon to the disk. ... " />
+            <marker date="1560056591004" expanded="true" signature="64240:65814" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="64286:64592" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="64631:64837" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="64878:65099" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="65160:65338" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="65355:65420" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="65454:65727" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="65824:65996" ph="/// Executes the specified file from the archive. ... " />
+            <marker date="1560056591004" expanded="true" signature="66050:67373" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="66105:66937" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="66218:66340" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="66386:66637" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="66671:66923" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="66979:67206" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="67307:67361" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="67383:67475" ph="/// Closes the currently open addon connection. ... " />
+            <marker date="1560056591004" expanded="true" signature="67535:68372" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="67583:67789" ph="{...}" />
+            <marker date="1560056591004" expanded="true" signature="67864:68196" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed/Whitelist.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <marker date="1560056456259" expanded="false" signature="6:104" ph="..." />
+            <marker date="1560056456259" expanded="true" signature="127:9024" ph="{...}" />
+            <marker date="1560056456259" expanded="true" signature="134:237" ph="/// Represents an error with files checking against the whitelist. ... " />
+            <marker date="1560056456259" expanded="true" signature="306:388" ph="{...}" />
+            <marker date="1560056456259" expanded="true" signature="394:489" ph="/// Provides methods to use the internal global whitelist. ... " />
+            <marker date="1560056456259" expanded="true" signature="525:9022" ph="{...}" />
+            <marker date="1560056456259" expanded="true" signature="540:687" ph="/// Gets or sets whether the whitelist has been overridden to support whitelist non-conforming addons. ... " />
+            <marker date="1560056456259" expanded="true" signature="742:834" ph="/// A list of string patterns of allowed files. ... " />
+            <marker date="1560056456259" expanded="true" signature="887:2680" ph="{...}" />
+            <marker date="1560056456259" expanded="true" signature="2691:2799" ph="/// Contains a list of whitelist patterns grouped by file type. ... " />
+            <marker date="1560056456259" expanded="true" signature="2933:3042" ph="/// Get a list of known whitelist patterns grouped by file type. ... " />
+            <marker date="1560056456259" expanded="true" signature="3160:3260" ph="/// Get a list of file extension - filetype maps known. ... " />
+            <marker date="1560056456259" expanded="true" signature="3365:3432" ph="/// Static constructor ... " />
+            <marker date="1560056456259" expanded="true" signature="3459:6059" ph="{...}" />
+            <marker date="1560056456259" expanded="true" signature="6069:6568" ph="/// Check a path against the internal whitelist determining whether it's allowed or not. ... " />
+            <marker date="1560056456259" expanded="true" signature="6642:6760" ph="{...}" />
+            <marker date="1560056456259" expanded="true" signature="6770:7126" ph="/// Check a path against the specified wildcard determining whether it's allowed or not. ... " />
+            <marker date="1560056456259" expanded="true" signature="7190:7484" ph="{...}" />
+            <marker date="1560056456259" expanded="true" signature="7494:7779" ph="/// Check a path against the internal whitelist and returns the first matching substring. ... " />
+            <marker date="1560056456259" expanded="true" signature="7839:8223" ph="{...}" />
+            <marker date="1560056456259" expanded="true" signature="7935:8186" ph="{...}" />
+            <marker date="1560056456259" expanded="true" signature="8233:8606" ph="/// Check a path against the specified wildcard and returns the matching substring. ... " />
+            <marker date="1560056456259" expanded="true" signature="8683:9016" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed/Assembly.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed/HSNXT.Greed.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed.CommandLine/HSNXT.Greed.CommandLine.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed.AddonGrep/HSNXT.Greed.AddonGrep.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F291349F-2910-4EEA-B2C0-D2B7940766AE/23/bf628dd1/RegexOptions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F291349F-2910-4EEA-B2C0-D2B7940766AE/a3/f0a48b96/MatchCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AB35B853-18B9-48DF-87CC-6695B81C8168/2a/10e230db/ConsolePal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="528" column="22" lean-forward="true" selection-start-line="528" selection-start-column="22" selection-end-line="528" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AB35B853-18B9-48DF-87CC-6695B81C8168/8f/494e23fc/Console.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="418" column="21" selection-start-line="418" selection-start-column="21" selection-end-line="418" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F291349F-2910-4EEA-B2C0-D2B7940766AE/a0/16dca8bc/Regex.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="560" column="19" selection-start-line="560" selection-start-column="19" selection-end-line="560" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed.CommandLine/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1560057177490" expanded="true" signature="21:1795" ph="{...}" />
+            <marker date="1560057177490" expanded="true" signature="28:128" ph="/// Contains basic methods for SharpGMad, like the entry point. ... " />
+            <marker date="1560057177490" expanded="true" signature="162:1793" ph="{...}" />
+            <marker date="1560057177490" expanded="true" signature="177:267" ph="/// The main entry point for the application. ... " />
+            <marker date="1560057177490" expanded="true" signature="314:1786" ph="{...}" />
+            <marker date="1560057177490" expanded="true" signature="459:920" ph="/* If there are parameters present, program starts as a CLI application. ... */" />
+            <marker date="1560057177490" expanded="true" signature="970:1682" ph="{...}" />
+            <marker date="1560057177490" expanded="true" signature="1001:1252" ph="/* This is needed because we support &quot;drag and drop&quot; GMA onto the executable ... */" />
+            <marker date="1560057177490" expanded="true" signature="1285:1668" ph="{...}" />
+            <marker date="1560057177490" expanded="true" signature="1699:1753" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed.AddonGrep/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="115" column="92" lean-forward="true" selection-start-line="114" selection-start-column="25" selection-end-line="115" selection-end-column="92" />
+          <folding>
+            <marker date="1560057081108" expanded="false" signature="6:140" ph="..." />
+            <marker date="1560057081108" expanded="true" signature="173:6407" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="209:6405" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="262:4877" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="524:1571" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="1818:3963" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="1931:2397" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="1995:2310" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="2431:3949" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="3717:3900" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="4000:4126" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="4247:4844" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="4299:4380" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="4471:4830" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="4541:4812" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="4645:4790" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="5038:5774" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="5119:5176" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="5229:5443" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="5359:5429" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="5487:5738" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="5654:5724" ph="{...}" />
+            <marker date="1560057081108" expanded="true" signature="5973:6399" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed.ClientSideLuaSeeker/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="33" selection-start-line="23" selection-end-line="33" />
+          <folding>
+            <marker date="1560121902829" expanded="true" signature="6:140" ph="..." />
+            <marker date="1560121902829" expanded="true" signature="183:5260" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="219:5258" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="786:4907" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="942:1448" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="1483:1656" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="1887:2380" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="2069:2366" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="2151:2233" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="2880:3547" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="2984:3533" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="3150:3374" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="4112:4245" ph="/* ReSharper disable once ConditionIsAlwaysTrueOrFalse ... */" />
+            <marker date="1560121902829" expanded="true" signature="4303:4519" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="4410:4505" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="4536:4767" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="4643:4753" ph="{...}" />
+            <marker date="1560121902829" expanded="true" signature="5024:5252" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/680D0A75-2A4E-40EB-A596-BAD88FBFB729/65/eb978e8e/String.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/680D0A75-2A4E-40EB-A596-BAD88FBFB729/80/143657c9/KeyValuePair`2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/680D0A75-2A4E-40EB-A596-BAD88FBFB729/85/668faef9/StringBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975">
+          <caret line="1008" column="16" selection-start-line="1008" selection-start-column="16" selection-end-line="1008" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed/RealtimeAddon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding>
+            <marker date="1560056456109" expanded="false" signature="6:83" ph="..." />
+            <marker date="1560056456109" expanded="true" signature="106:22743" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="113:208" ph="/// Represents a watcher declaration for an exported file. ... " />
+            <marker date="1560056456109" expanded="true" signature="235:1382" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="250:351" ph="/// Gets or sets the path of the file on the filesystem. ... " />
+            <marker date="1560056456109" expanded="true" signature="392:495" ph="/// Gets or sets the path of the file in the loaded addon. ... " />
+            <marker date="1560056456109" expanded="true" signature="539:641" ph="/// Gets or sets whether the file is modified externally. ... " />
+            <marker date="1560056456109" expanded="true" signature="680:779" ph="/// The integrated System.IO.FileSystemWatcher object. ... " />
+            <marker date="1560056456109" expanded="true" signature="831:946" ph="/// The event to fire when the assigned Watcher reports a file change. ... " />
+            <marker date="1560056456109" expanded="true" signature="1013:1105" ph="/// Fires all associated FileChanged delegates. ... " />
+            <marker date="1560056456109" expanded="true" signature="1173:1376" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="1388:1510" ph="/// Encapsulates an Addon and provides the extended &quot;realtime&quot; functionality over it. ... " />
+            <marker date="1560056456109" expanded="true" signature="1555:22741" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="1570:1675" ph="/// The addon handled by the current RealtimeAddon instance. ... " />
+            <marker date="1560056456109" expanded="true" signature="1737:1828" ph="/// The file handle of the current open addon. ... " />
+            <marker date="1560056456109" expanded="true" signature="1878:1989" ph="/// Gets whether the Stream of the encapsulated Addon is writable. ... " />
+            <marker date="1560056456109" expanded="true" signature="2054:2170" ph="/// The reader corresponding to the handling of this addon on the disk. ... " />
+            <marker date="1560056456109" expanded="true" signature="2216:2321" ph="/// Gets the file path of the addon on the local filesystem. ... " />
+            <marker date="1560056456109" expanded="true" signature="2384:2544" ph="/// Indicates whether the current addon is modified (the state in memory differs from the state of the filestream ... " />
+            <marker date="1560056456109" expanded="true" signature="2585:2976" ph="/// Gets whether the current addon is modified (the state in memory differs from the state of the filestream). ... " />
+            <marker date="1560056456109" expanded="true" signature="3005:3507" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="3061:3497" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="3102:3312" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="3333:3483" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="3516:3611" ph="/// Gets whether there are changed exported files. ... " />
+            <marker date="1560056456109" expanded="true" signature="3705:3782" ph="/// Contains the exported files. ... " />
+            <marker date="1560056456109" expanded="true" signature="3858:5068" ph="/// Loads the specified addon from the local filesystem and encapsulates it within a realtime instance. ... " />
+            <marker date="1560056456109" expanded="true" signature="5178:6658" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="5228:5360" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="5411:5650" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="5682:5765" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="5804:5868" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="5900:5981" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="6017:6098" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="6140:6222" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="6260:6341" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="6380:6461" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="6498:6579" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="6668:7158" ph="/// Creates a new, empty addon and encapsulates it within a realtime instance. ... " />
+            <marker date="1560056456109" expanded="true" signature="7215:7803" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="7264:7375" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="7430:7565" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="7813:7923" ph="/// Private constructor setting up references and default values. ... " />
+            <marker date="1560056456109" expanded="true" signature="7955:8056" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="8066:8467" ph="/// Creates the RealtimeAddon instance with the specified Addon to encapsulate and the FileStream pointing to the ... " />
+            <marker date="1560056456109" expanded="true" signature="8552:8638" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="8648:9419" ph="/// Adds the specified file from the local filesystem to the encapsulated addon. ... " />
+            <marker date="1560056456109" expanded="true" signature="9464:9975" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="9514:9646" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="9985:10652" ph="/// Adds an array of bytes to the encapsulated addon using the specified internal path. ... " />
+            <marker date="1560056456109" expanded="true" signature="10709:10806" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="10816:11090" ph="/// Removes the specified file from the encapsulated addon. ... " />
+            <marker date="1560056456109" expanded="true" signature="11134:11225" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="11235:12031" ph="/// Extracts a file from the encapsulated addon and saves it on the local filesystem. ... " />
+            <marker date="1560056456109" expanded="true" signature="12094:13289" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="12146:12283" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="12300:12570" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="12409:12556" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="12617:12712" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="12758:12899" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="12933:13056" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="13299:14299" ph="/// Saves the specified file on the local filesystem and sets up a notifier FileWatch object ... " />
+            <marker date="1560056456109" expanded="true" signature="14354:15571" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="14406:14546" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="14563:14836" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="14672:14822" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="14906:15035" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="15225:15295" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="15581:15691" ph="/// Fires if an exported file is changed on the local filesystem. ... " />
+            <marker date="1560056456109" expanded="true" signature="15762:16604" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="15824:15927" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="15973:16221" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="16004:16152" ph="/* The watch for the file was removed earlier but the Watcher remained there. ... */" />
+            <marker date="1560056456109" expanded="true" signature="16300:16367" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="16384:16594" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="16614:17089" ph="/// Deletes the export of the specified file from the local filesystem and stops watching the changes. ... " />
+            <marker date="1560056456109" expanded="true" signature="17133:17575" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="17188:17288" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="17334:17445" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="17585:18072" ph="/// Updates the encapsulated addon object's file entry with the changes of a previously exported file. ... " />
+            <marker date="1560056456109" expanded="true" signature="18110:19378" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="18166:18267" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="18313:18424" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="18468:18520" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="18577:18689" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="18735:18933" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="19388:19731" ph="/// Gets the ContentFile entry for the specified path. ... " />
+            <marker date="1560056456109" expanded="true" signature="19779:19843" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="19853:20090" ph="/// Saves the changes of the encapsulated addon to its file stream. ... " />
+            <marker date="1560056456109" expanded="true" signature="20117:21904" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="20170:20423" ph="/* It is needed to create a new, temporary file where we write the addon first ... */" />
+            <marker date="1560056456109" expanded="true" signature="20594:20952" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="20966:21079" ph="/* If there were no errors creating and copying the temporary file, ... */" />
+            <marker date="1560056456109" expanded="true" signature="21267:21352" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="21369:21437" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="21451:21703" ph="/* Convert all files in the open addon to addon-backed content storages ... */" />
+            <marker date="1560056456109" expanded="true" signature="21757:21894" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="21914:22094" ph="/// Closes all connections of the current RealtimeAddon instance. ... " />
+            <marker date="1560056456109" expanded="true" signature="22122:22663" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="22170:22407" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="22236:22317" ph="{...}" />
+            <marker date="1560056456109" expanded="true" signature="22694:22735" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed/Addon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="322" column="13" selection-start-line="322" selection-start-column="13" selection-end-line="322" selection-end-column="13" />
+          <folding>
+            <marker date="1560056455803" expanded="false" signature="6:178" ph="..." />
+            <marker date="1560056455803" expanded="true" signature="201:21561" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="208:309" ph="/// Represents an error with files checking against ignore list. ... " />
+            <marker date="1560056455803" expanded="true" signature="376:697" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="703:837" ph="/// Represents an addon file in the program's memory and provides methods to manipulate an addon. ... " />
+            <marker date="1560056455803" expanded="true" signature="860:12968" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="875:975" ph="/// The identation (first few characters) of GMA files. ... " />
+            <marker date="1560056455803" expanded="true" signature="1028:1108" ph="/// The version byte for GMA files. ... " />
+            <marker date="1560056455803" expanded="true" signature="1162:1319" ph="/* The AppID of Garry's Mod on Steam. ... */" />
+            <marker date="1560056455803" expanded="true" signature="1328:1511" ph="/* Some sort of checksum/signature entry. ... */" />
+            <marker date="1560056455803" expanded="true" signature="1529:2399" ph="/* Represents the header of a GMA file. ... */" />
+            <marker date="1560056455803" expanded="true" signature="2409:2856" ph="/* This is the position in the file containing a 64 bit unsigned int that represents the file's age ... */" />
+            <marker date="1560056455803" expanded="true" signature="2874:2959" ph="/// Gets or sets the title of the addon. ... " />
+            <marker date="1560056455803" expanded="true" signature="3010:3115" ph="/// Gets the format version byte of the addon (from header). ... " />
+            <marker date="1560056455803" expanded="true" signature="3167:3428" ph="/* Gets or sets the author of the addon. ... */" />
+            <marker date="1560056455803" expanded="true" signature="3437:3528" ph="/// Gets or sets the description of the addon. ... " />
+            <marker date="1560056455803" expanded="true" signature="3585:3686" ph="/// Gets a compiled JSON string of the addon's metadata. ... " />
+            <marker date="1560056455803" expanded="true" signature="3766:3850" ph="/// Gets or sets the type of the addon. ... " />
+            <marker date="1560056455803" expanded="true" signature="3900:4043" ph="/* Gets or sets the Steam ID of the creator. ... */" />
+            <marker date="1560056455803" expanded="true" signature="4052:4137" ph="/// Gets the creation time of the addon. ... " />
+            <marker date="1560056455803" expanded="true" signature="4189:4332" ph="/* Gets or sets the version of the addon. ... */" />
+            <marker date="1560056455803" expanded="true" signature="4341:4436" ph="/// Contains a list of file contents of the addon. ... " />
+            <marker date="1560056455803" expanded="true" signature="4493:4576" ph="/// Gets or sets a list of addon tags. ... " />
+            <marker date="1560056455803" expanded="true" signature="4632:4726" ph="/// Gets or sets a list of addon ignore patterns. ... " />
+            <marker date="1560056455803" expanded="true" signature="4781:4871" ph="/// Initializes an new, empty Addon instance. ... " />
+            <marker date="1560056455803" expanded="true" signature="4894:5252" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="5262:5960" ph="/// Sets up a new instance of Addon using the data provided by the specified addon reader. ... " />
+            <marker date="1560056455803" expanded="true" signature="6046:6677" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="6466:6667" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="6687:6914" ph="/// Sets up a new instance of Addon using the metadata provided from the specified JSON. ... " />
+            <marker date="1560056455803" expanded="true" signature="6972:7375" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="7393:7645" ph="/// Gets whether the specified file is ignored by the addon's ignore list. ... " />
+            <marker date="1560056455803" expanded="true" signature="7689:7846" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="7856:8119" ph="/// Gets whether the specified file is allowed to be in GMAs by the global whitelist. ... " />
+            <marker date="1560056455803" expanded="true" signature="8174:8255" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="8265:8996" ph="/// Check against whitelist patterns to ensure that the file is allowed in the addon. ... " />
+            <marker date="1560056455803" expanded="true" signature="9047:10098" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="10108:10724" ph="/// Adds the specified file into the Addon's internal container. ... " />
+            <marker date="1560056455803" expanded="true" signature="10781:11290" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="10840:11092" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="11300:11390" ph="/// Sorts the internal file list by filename. ... " />
+            <marker date="1560056455803" expanded="true" signature="11417:11510" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="11520:11863" ph="/// Gets the ContentFile entry for the specified path. ... " />
+            <marker date="1560056455803" expanded="true" signature="11911:12247" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="11968:12053" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="12099:12211" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="12257:12546" ph="/// Removes the specified file and its contents from the internal storage. ... " />
+            <marker date="1560056455803" expanded="true" signature="12590:12962" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="12709:12952" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="12974:13060" ph="/// Represents a file entry to an Addon instance. ... " />
+            <marker date="1560056455803" expanded="true" signature="13089:21559" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="13104:13198" ph="/// Indicates the types how a file can be stored. ... " />
+            <marker date="1560056455803" expanded="true" signature="13238:13760" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="13261:13496" ph="/// Represents a storage in the addon itself. The contents will be read from the addon file. ... " />
+            <marker date="1560056455803" expanded="true" signature="13536:13727" ph="/// Represents a storage on the filesystem. The contents will be read from the disk. ... " />
+            <marker date="1560056455803" expanded="true" signature="13770:13853" ph="/// Gets or sets the path of the file. ... " />
+            <marker date="1560056455803" expanded="true" signature="13898:14004" ph="/// Gets or sets an array of bytes containg the file content. ... " />
+            <marker date="1560056455803" expanded="true" signature="14034:15984" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="14060:14913" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="14154:14860" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="14929:15974" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="14977:15960" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="15994:16068" ph="/// The storage of the addon. ... " />
+            <marker date="1560056455803" expanded="true" signature="16123:16242" ph="/// The reader where the contents can be read if Storage is AddonInstance. ... " />
+            <marker date="1560056455803" expanded="true" signature="16293:16415" ph="/// The index FileNumber in the AssociatedReader if Storage is AddonInstance. ... " />
+            <marker date="1560056455803" expanded="true" signature="16464:16559" ph="/// The file on the disk if Storage is Filesystem. ... " />
+            <marker date="1560056455803" expanded="true" signature="16611:16689" ph="/// Gets the size of the content. ... " />
+            <marker date="1560056455803" expanded="true" signature="16714:17001" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="16740:16991" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="17011:17099" ph="/// Gets the CRC32 checksum of the content. ... " />
+            <marker date="1560056455803" expanded="true" signature="17123:17420" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="17149:17410" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="17430:17702" ph="/// Initializes a new content file using an already existing file from an addon as storage. ... " />
+            <marker date="1560056455803" expanded="true" signature="17769:17967" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="17977:18262" ph="/// Initializes a new content file using pure content as storage. ... " />
+            <marker date="1560056455803" expanded="true" signature="18318:18580" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="18590:18828" ph="/// Generates a temporary path for the specified file. ... " />
+            <marker date="1560056455803" expanded="true" signature="18891:19175" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="19185:19543" ph="/// Switches the current ContentFile to represent a file saved into an addon. ... " />
+            <marker date="1560056455803" expanded="true" signature="19625:20268" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="19665:20258" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="20278:20393" ph="/// Disposes the externally saved content backer for the current file. ... " />
+            <marker date="1560056455803" expanded="true" signature="20431:20822" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="20525:20676" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="20706:20812" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="20832:20963" ph="/// Cleans up the temporary folder from possible stale externally saved content files. ... " />
+            <marker date="1560056455803" expanded="true" signature="21009:21478" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="21167:21468" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="21201:21276" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="21310:21454" ph="{...}" />
+            <marker date="1560056455803" expanded="true" signature="21502:21553" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed.Unswepper/UnswepperProgram.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+          <folding>
+            <marker date="1560144759459" expanded="false" signature="6:140" ph="..." />
+            <marker date="1560144759459" expanded="true" signature="173:5551" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="216:5549" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="498:561" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="611:1862" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="719:1146" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="1463:1743" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="1930:5395" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="2159:2462" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="2932:3368" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="3197:3354" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="3406:3788" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="3613:3774" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="3826:4204" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="4070:4190" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="4307:4615" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="4652:4950" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="4987:5301" ph="{...}" />
+            <marker date="1560144759459" expanded="true" signature="5457:5543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed.ClientSideLuaSeeker/MathHelpers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+          <folding>
+            <marker date="1560119367067" expanded="true" signature="6:66" ph="..." />
+            <marker date="1560119367067" expanded="true" signature="109:4423" ph="{...}" />
+            <marker date="1560119367067" expanded="true" signature="147:4421" ph="{...}" />
+            <marker date="1560119367067" expanded="true" signature="219:738" ph="/// Partitions the given list around a pivot element such that all elements on left of pivot are &amp;lt;= pivot ... " />
+            <marker date="1560119367067" expanded="true" signature="874:1292" ph="{...}" />
+            <marker date="1560119367067" expanded="true" signature="1090:1214" ph="{...}" />
+            <marker date="1560119367067" expanded="true" signature="1302:1632" ph="/// Returns Nth smallest element from the list. Here n starts from 0 so that n=0 returns minimum, n=1 returns 2nd ... " />
+            <marker date="1560119367067" expanded="true" signature="1748:1839" ph="{...}" />
+            <marker date="1560119367067" expanded="true" signature="1982:2347" ph="{...}" />
+            <marker date="1560119367067" expanded="true" signature="2017:2337" ph="{...}" />
+            <marker date="1560119367067" expanded="true" signature="2417:2671" ph="{...}" />
+            <marker date="1560119367067" expanded="true" signature="2681:2783" ph="/// Note: specified list would be mutated in the process. ... " />
+            <marker date="1560119367067" expanded="true" signature="2857:2942" ph="{...}" />
+            <marker date="1560119367067" expanded="true" signature="3042:3425" ph="{...}" />
+            <marker date="1560119367067" expanded="true" signature="3235:3311" ph="{...}" />
+            <marker date="1560119367067" expanded="true" signature="3523:3675" ph="{...}" />
+            <marker date="1560119367067" expanded="true" signature="3830:4415" ph="{...}" />
+            <marker date="1560119367067" expanded="true" signature="4011:4087" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSNXT.Greed.SwepMerger/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1066">
+          <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
+          <folding>
+            <marker date="1560144468941" expanded="true" signature="6:169" ph="..." />
+            <marker date="1560144468941" expanded="true" signature="203:5622" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="239:5620" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="442:2682" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="550:1094" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="1599:1806" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="1870:2077" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="2135:2254" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="2312:2436" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="2806:3186" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="3397:5199" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="4110:4492" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="4308:4408" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="4545:4951" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="4736:4836" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="5288:5614" ph="{...}" />
+            <marker date="1560144468941" expanded="true" signature="5388:5446" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
